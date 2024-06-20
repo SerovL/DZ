@@ -8,4 +8,4 @@ $connect = new PDO('mysql:host=localhost; dbname=ajax', 'root','');
 $sql = 'INSERT INTO `ajax` (input, content) VALUES (:title, :content)';
 $statment = $connect->prepare($sql);
 $result = $statment->execute($date);
-var_dump($result);
+//var_dump($result);
