@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(159, 210, 255);
+    
+    
+}
+.korobka{
+    height: 200px;
+    width: 250px;
+   border:4px ridge rgb(250, 234, 180);
+   background-color:beige;
+   
+}
+
